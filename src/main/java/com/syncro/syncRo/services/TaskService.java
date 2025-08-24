@@ -1,8 +1,10 @@
-package com.syncro.syncRo.services;
+package com.syncro.syncro.services;
 
-import com.syncro.syncRo.models.Task;
-import com.syncro.syncRo.repositories.TaskRepository;
 import org.springframework.stereotype.Service;
+
+import com.syncro.syncro.models.Task;
+import com.syncro.syncro.repositories.TaskRepository;
+
 import org.springframework.data.domain.PageRequest;
 
 

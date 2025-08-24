@@ -1,7 +1,5 @@
-package com.syncro.syncRo.config;
+package com.syncro.syncro.config;
 
-import com.syncro.syncRo.services.UserService;
-import com.syncro.syncRo.utils.JwtUtil;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;
@@ -13,6 +11,9 @@ import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.web.authentication.WebAuthenticationDetailsSource;
 import org.springframework.stereotype.Component;
 import org.springframework.web.filter.OncePerRequestFilter;
+
+import com.syncro.syncro.services.UserService;
+import com.syncro.syncro.utils.JwtUtil;
 
 import java.io.IOException;
 import java.util.Collections;

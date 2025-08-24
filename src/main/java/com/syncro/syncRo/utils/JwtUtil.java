@@ -1,4 +1,4 @@
-package com.syncro.syncRo.utils;
+package com.syncro.syncro.utils;
 
 import io.jsonwebtoken.*;
 import io.jsonwebtoken.security.Keys;

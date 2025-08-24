@@ -1,8 +1,10 @@
-package com.syncro.syncRo.repositories;
+package com.syncro.syncro.repositories;
 
-import com.syncro.syncRo.models.Task;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.mongodb.repository.MongoRepository;
+
+import com.syncro.syncro.models.Task;
+
 import java.util.List;
 
 public interface TaskRepository extends MongoRepository<Task, String> {

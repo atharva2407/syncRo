@@ -1,4 +1,4 @@
-package com.syncro.syncRo.models;
+package com.syncro.syncro.models;
 
 public class LoginRequest {
     private String username;

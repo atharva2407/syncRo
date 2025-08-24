@@ -1,4 +1,4 @@
-package com.syncro.syncRo;
+package com.syncro.syncro;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

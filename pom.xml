@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.syncro</groupId>
-	<artifactId>syncRo</artifactId>
+	<artifactId>syncro</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>syncRo</name>
+	<name>syncRO</name>
 	<description>Demo project for Spring Boot</description>
 	<url/>
 	<licenses>

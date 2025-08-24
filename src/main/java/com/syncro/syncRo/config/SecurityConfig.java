@@ -1,6 +1,5 @@
-package com.syncro.syncRo.config;
+package com.syncro.syncro.config;
 
-import com.syncro.syncRo.config.JwtAuthenticationFilter;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 // import org.springframework.security.authentication.AuthenticationManager;
@@ -13,6 +12,8 @@ import org.springframework.security.web.authentication.UsernamePasswordAuthentic
 import org.springframework.web.cors.CorsConfiguration;
 import org.springframework.web.cors.CorsConfigurationSource;
 import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
+
+import com.syncro.syncro.config.JwtAuthenticationFilter;
 
 import java.util.List;
 @Configuration

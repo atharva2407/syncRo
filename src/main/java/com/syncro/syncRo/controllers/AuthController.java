@@ -1,17 +1,19 @@
-package com.syncro.syncRo.controllers;
+package com.syncro.syncro.controllers;
 
-import com.syncro.syncRo.models.LoginRequest;
 import java.util.Collections;
-import com.syncro.syncRo.models.User;
-import com.syncro.syncRo.services.UserService;
-import com.syncro.syncRo.utils.JwtUtil; // import your utility
+
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+
+import com.syncro.syncro.models.LoginRequest;
+import com.syncro.syncro.models.User;
+import com.syncro.syncro.services.UserService;
+import com.syncro.syncro.utils.JwtUtil;
+
 import org.springframework.security.crypto.password.PasswordEncoder;
-import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/api/auth")
@@ -49,4 +51,3 @@ public class AuthController {
         return ResponseEntity.ok(Collections.singletonMap("token", token));
     }
 }
-

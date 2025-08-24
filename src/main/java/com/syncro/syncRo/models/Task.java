@@ -1,4 +1,4 @@
-package com.syncro.syncRo.models;
+package com.syncro.syncro.models;
 
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;

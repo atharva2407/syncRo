@@ -1,9 +1,10 @@
-package com.syncro.syncRo.services;
+package com.syncro.syncro.services;
 
-import com.syncro.syncRo.models.User;
-import com.syncro.syncRo.repositories.UserRepository;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
+
+import com.syncro.syncro.models.User;
+import com.syncro.syncro.repositories.UserRepository;
 
 import java.util.Optional;
 

@@ -1,13 +1,13 @@
-package com.syncro.syncRo.controllers;
+package com.syncro.syncro.controllers;
 
-import com.syncro.syncRo.models.Task;
-import com.syncro.syncRo.models.User;
-import com.syncro.syncRo.services.TaskService;
-import com.syncro.syncRo.services.UserService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.core.Authentication;
 import org.springframework.web.bind.annotation.*;
 
+import com.syncro.syncro.models.Task;
+import com.syncro.syncro.models.User;
+import com.syncro.syncro.services.TaskService;
+import com.syncro.syncro.services.UserService;
 
 import java.util.List;
 @RestController

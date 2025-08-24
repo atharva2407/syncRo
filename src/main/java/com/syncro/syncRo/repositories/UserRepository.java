@@ -1,7 +1,8 @@
-package com.syncro.syncRo.repositories;
+package com.syncro.syncro.repositories;
 
-import com.syncro.syncRo.models.User;
 import org.springframework.data.mongodb.repository.MongoRepository;
+
+import com.syncro.syncro.models.User;
 
 import java.util.Optional;
 

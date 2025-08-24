@@ -1,4 +1,4 @@
-package com.syncro.syncRo;
+package com.syncro.syncro;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
